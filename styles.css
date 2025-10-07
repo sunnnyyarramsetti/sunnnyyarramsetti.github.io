@@ -64,7 +64,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(15, 23, 42, 0.45);
+  background: rgba(195, 204, 224, 0.45);
 }
 
 /* ---------- HERO (HOME) ---------- */
@@ -75,7 +75,7 @@
   min-height: calc(100vh - 0px);
   display: flex;
   align-items: center;
-  background: url("back.jpg") center/cover no-repeat;
+  background: url("backg.jpg") center/cover no-repeat;
   border-radius: 0;
 }
 
@@ -83,8 +83,7 @@
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.6);
-  backdrop-filter: blur(1px);
+
 }
 
 /* content */
@@ -344,7 +343,7 @@ body {
     align-items: center;
     gap: 0.8rem;
     font-size: 0.9rem;
-    color: var(--light-gray);
+   color: var(--light-gray);
 }
 
 .contact-info i {
@@ -373,7 +372,7 @@ body {
 
 .main-nav ul {
     list-style: none;
-    margin-top: -2.85rem;
+    margin-top: -2rem;
 }
 
 .nav-link {
